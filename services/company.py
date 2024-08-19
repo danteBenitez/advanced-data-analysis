@@ -20,7 +20,7 @@ class CompanyDataService:
             """)
             cursor.execute("""
                 CREATE DATABASE CompanyData
-            """)
+            """) 
             cursor.execute("""
                 USE CompanyData
             """)
