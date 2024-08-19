@@ -4,6 +4,12 @@ import csv
 MOCK_DATA_PATH = "MOCK_DATA.csv"
 
 class CompanyDataService:
+    """
+        Servicio que interactúa con la base de datos `CompanyData`. 
+        Provee métodos para inicializar la base de datos, poblarla con datos ficticios,
+        y obtener información de la tabla `EmployeePerformance`.
+    """
+
     def __init__(self, conn: Database):
         self.connection = conn
 
