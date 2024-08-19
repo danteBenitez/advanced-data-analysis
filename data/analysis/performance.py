@@ -1,4 +1,3 @@
-from services.company import CompanyDataService
 from data.analysis.department import DepartmentAnalysis
 import pandas as pd
 
